@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Projects - Sachin Kumar Gupta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Sachin Kumar Gupta</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tableau.html" class="nav-link">Tableau</a>
+                </li>
+                <li class="nav-item">
+                    <a href="excel.html" class="nav-link">Excel</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sql.html" class="nav-link">SQL</a>
+                </li>
+                <li class="nav-item">
+                    <a href="datascience.html" class="nav-link active">Data Science</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link contact-btn">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Data Science Projects Section -->
+    <main class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <h1 class="section-title">Data Science Projects</h1>
+                <p class="section-description">Machine learning models and predictive analytics solutions</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Cyclistic Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-bicycle"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Cyclistic Bike-Share Analysis</h3>
+                        <p class="project-description">
+                            End-to-end data workflow using SQL for preparation and Python for EDA to 
+                            compare how casual riders and annual members use the service.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Google Capstone</span>
+                            <span class="tag">Tableau</span>
+                        </div>
+                        <details class="project-details">
+                            <summary>Read more</summary>
+                            <div class="project-long">
+                                <p>Follows the Google capstone's six-step framework (Ask-Prepare-Process-Analyze-Share-Act) to quantify behavioral differences between rider segments and translate findings into membership growth strategies.</p>
+                                <ul>
+                                    <li>Tools: PostgreSQL for data prep, Python (Pandas/Seaborn/Plotly) for analysis, Tableau for dashboards.</li>
+                                    <li>Focus: Ride duration, day-type patterns, bike types, station hotspots, and seasonal trends.</li>
+                                    <li>Outcome: Marketing and timing recommendations for converting casual riders to members.</li>
+                                    <li>Key Insights: Casual riders concentrate on weekends with longer rides, while members use bikes for weekday commuting.</li>
+                                </ul>
+                            </div>
+                        </details>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Sachin-Kumar-Gupta/Cyclistic-Bike-Share-Analysis" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Repository
+                            </a>
+                            <a href="https://colab.research.google.com/drive/10XLuC_8Jk1OGAY-mRwbYgdDDDIYcJ0tN?usp=sharing" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-google"></i>
+                                Open Notebook
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salifort Motors Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Salifort Motors - Employee Attrition</h3>
+                        <p class="project-description">
+                            Classification workflow using HR data to predict which employees are likely 
+                            to leave and to surface actionable drivers for retention.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">HR Analytics</span>
+                            <span class="tag">Classification</span>
+                        </div>
+                        <details class="project-details">
+                            <summary>Read more</summary>
+                            <div class="project-long">
+                                <p>Builds and evaluates classification models on HR features (projects, tenure, hours, evaluations) to flag employees likely to leave and inform policy changes.</p>
+                                <ul>
+                                    <li>Business Goal: Reduce attrition cost and improve satisfaction through proactive retention strategies.</li>
+                                    <li>Methods: Data wrangling and modeling in Jupyter notebooks with supervised classification approach.</li>
+                                    <li>Key Features: Number of projects, years at company, monthly hours worked, evaluation scores.</li>
+                                    <li>Recommendations: Limit concurrent projects to 3-4 (max 5), promote after ~4 years, clarify overtime expectations, discuss culture, reward work proportionally.</li>
+                                </ul>
+                            </div>
+                        </details>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Sachin-Kumar-Gupta/Salifort-Motors-Project" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automatidata Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-taxi"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automatidata - Predicting Taxi Gratuities</h3>
+                        <p class="project-description">
+                            NYC Yellow Taxi tipping classification using trip features (duration, distance, 
+                            fare) to predict generous tips (>20%) with machine learning models.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">NYC Data</span>
+                            <span class="tag">Random Forest</span>
+                        </div>
+                        <details class="project-details">
+                            <summary>Read more</summary>
+                            <div class="project-long">
+                                <p>This project builds multiple models (including random forest) on NYC Yellow Taxi 2017 trip records to classify whether a rider will tip generously, focusing on interpretable trip features.</p>
+                                <ul>
+                                    <li>Data: 2017 Yellow Taxi trip records (~408k trips) with timestamps, locations, distance, fares, payment types.</li>
+                                    <li>Features: Trip duration, distance, total/fare amounts, vendor/payment type; top importance for duration, distance, cost.</li>
+                                    <li>Modeling: Random forest classification with 86% accuracy and 72% precision for generous tipping prediction.</li>
+                                    <li>Use Cases: Inform driver expectations for tip likelihood and explore pricing/route patterns correlating with higher gratuities.</li>
+                                </ul>
+                            </div>
+                        </details>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Sachin-Kumar-Gupta/Automatidata-Project" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Future Projects Placeholder -->
+                <div class="project-card placeholder">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Advanced ML Projects Coming Soon</h3>
+                        <p class="project-description">
+                            Advanced machine learning projects featuring deep learning, NLP, and 
+                            computer vision applications are currently in development.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge planned">Planned</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-showcase">
+                <div class="showcase-content">
+                    <h2>Machine Learning Expertise</h2>
+                    <p>Specialized in end-to-end ML solutions from data preprocessing to model deployment</p>
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <i class="fas fa-robot"></i>
+                            <h4>Supervised Learning</h4>
+                            <p>Classification and regression models using scikit-learn, XGBoost, and ensemble methods</p>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Feature Engineering</h4>
+                            <p>Advanced data preprocessing, feature selection, and dimensionality reduction techniques</p>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-cogs"></i>
+                            <h4>Model Optimization</h4>
+                            <p>Hyperparameter tuning, cross-validation, and performance evaluation strategies</p>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-code"></i>
+                            <h4>Python Ecosystem</h4>
+                            <p>Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, and Jupyter for data science workflows</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-section">
+                <h2>Tools & Technologies</h2>
+                <div class="tools-grid">
+                    <div class="tool-category">
+                        <h4>Programming</h4>
+                        <div class="tool-list">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">SQL</span>
+                            <span class="tool-tag">R</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h4>Machine Learning</h4>
+                        <div class="tool-list">
+                            <span class="tool-tag">scikit-learn</span>
+                            <span class="tool-tag">XGBoost</span>
+                            <span class="tool-tag">Random Forest</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h4>Data Analysis</h4>
+                        <div class="tool-list">
+                            <span class="tool-tag">Pandas</span>
+                            <span class="tool-tag">NumPy</span>
+                            <span class="tool-tag">Matplotlib</span>
+                            <span class="tool-tag">Seaborn</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h4>Platforms</h4>
+                        <div class="tool-list">
+                            <span class="tool-tag">Jupyter</span>
+                            <span class="tool-tag">Google Colab</span>
+                            <span class="tool-tag">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <div class="cta-content">
+                    <h2>Interested in Data Science Solutions?</h2>
+                    <p>Looking for machine learning models, predictive analytics, or data science consulting? Let's discuss your project requirements.</p>
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Sachin Kumar Gupta</h3>
+                    <p>Data Scientist & Analytics Expert</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Portfolio</h4>
+                        <a href="tableau.html">Tableau</a>
+                        <a href="excel.html">Excel</a>
+                        <a href="sql.html">SQL</a>
+                        <a href="datascience.html">Data Science</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>About</h4>
+                        <a href="about.html">About Me</a>
+                        <a href="resume.html">Resume</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sachin Kumar Gupta. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+    <script>
+        // Active link highlighting
+        const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+        document.querySelectorAll('.nav-menu .nav-link').forEach(link => {
+            if (link.getAttribute('href') === currentPage) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
