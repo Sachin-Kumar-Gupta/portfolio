@@ -1390,12 +1390,9 @@ select.form-control {
 /* Contact Section */
 .contact-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-32);
-    margin-top: var(--space-32);
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    grid-template-columns: minmax(0, 720px);
+    justify-content: center;       /* centers the column track */
+    justify-items: stretch;
     padding: 0 var(--space-16);
 }
 
