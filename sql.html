@@ -54,10 +54,77 @@
         <div class="section-container">
             <div class="section-header">
                 <h1 class="section-title">SQL Projects</h1>
-                <p class="section-description">Database analysis and complex query solutions</p>
+                <p class="section-description">Building scalable data systems, automation pipelines, and analytics solutions using SQL</p>
             </div>
 
             <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            E-Commerce Data Pipeline & Analytics System
+                        </h3>
+                
+                        <p class="project-description">
+                            Designed and implemented a PostgreSQL database system for an e-commerce company,
+                            including order tracking, automated aggregation, chat support infrastructure,
+                            and executive-level analytics for business decision-making and acquisition due diligence.
+                        </p>
+                        <img src="assets/EER.png" alt="ER Diagram" style="width:100%; margin-top:15px;">
+                
+                        <div class="project-tags">
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Data Modeling</span>
+                            <span class="tag">Triggers</span>
+                            <span class="tag">Stored Procedures</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                
+                        <!-- Business Impact -->
+                        <div class="project-impact">
+                            <h4>Business Impact</h4>
+                            <ul>
+                                <li>Automated order aggregation using triggers → eliminated manual reporting</li>
+                                <li>Designed chat support system to track customer–rep interactions</li>
+                                <li>Built analytics views for monthly revenue & traffic</li>
+                                <li>Enabled dynamic reporting using stored procedures</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Key Features -->
+                        <div class="project-features">
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Normalized relational database design</li>
+                                <li>Real-time order updates via triggers</li>
+                                <li>Stored procedures for business queries</li>
+                                <li>Monthly analytics views for reporting</li>
+                                <li>Role-based access control (views only)</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Code Preview -->
+                        <div class="project-code">
+                            <h4>Sample SQL</h4>
+                            <pre><code>
+                CREATE TRIGGER insert_new_order
+                AFTER INSERT ON order_items
+                FOR EACH ROW
+                EXECUTE FUNCTION update_orders_after_insert();
+                            </code></pre>
+                        </div>
+                
+                        <!-- CTA -->
+                        <div class="project-links">
+                            <a href="https://github.com/Sachin-Kumar-Gupta/SQL-Projects/tree/main/Maven_Advance_SQL_Database_Administration" target="_blank" class="btn btn--primary">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <!-- Coming Soon Card -->
                 <div class="project-card coming-soon">
                     <div class="project-image">
@@ -219,7 +286,7 @@
                 <div class="cta-content">
                     <h2>Need SQL Solutions?</h2>
                     <p>Looking for database analysis, query optimization, or data modeling expertise? Let's discuss your project.</p>
-                    <a href="contact.html" class="btn btn-primary">
+                    <a href="index.html#contact" class="btn btn-primary">
                         <i class="fas fa-envelope"></i>
                         Get in Touch
                     </a>
@@ -246,9 +313,9 @@
                     </div>
                     <div class="footer-column">
                         <h4>About</h4>
-                        <a href="about.html">About Me</a>
-                        <a href="resume.html">Resume</a>
-                        <a href="contact.html">Contact</a>
+                        <a href="index.html#about">About Me</a>
+                        <a href="index.html#resume">Resume</a>
+                        <a href="index.html#contact">Contact</a>
                     </div>
                 </div>
                 <div class="footer-social">
