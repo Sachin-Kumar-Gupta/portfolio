@@ -222,7 +222,7 @@ function initTypingAnimation() {
     console.log('Starting typing animation');
     typingAnimationRunning = true;
 
-    const textToType = "Passionate data scientist with 2 years of experience in transforming complex data into actionable insights through advanced analytics, machine learning, and data visualization.";
+    const textToType = "Passionate data scientist with 3 years of experience in transforming complex data into actionable insights through advanced analytics, machine learning, and data visualization.";
     
     // Clear existing text
     typedTextElement.textContent = '';
