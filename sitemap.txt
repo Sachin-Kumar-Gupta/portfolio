@@ -1,0 +1,9 @@
+https://sachin-kumar-gupta.github.io/portfolio/index.html
+
+https://sachin-kumar-gupta.github.io/portfolio/tableau.html
+
+https://sachin-kumar-gupta.github.io/portfolio/excel.html
+
+https://sachin-kumar-gupta.github.io/portfolio/sql.html
+
+https://sachin-kumar-gupta.github.io/portfolio/datascience.html
