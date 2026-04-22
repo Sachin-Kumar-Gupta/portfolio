@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://sachin-kumar-gupta.github.io/portfolio/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sachin-kumar-gupta.github.io/portfolio/tableau.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sachin-kumar-gupta.github.io/portfolio/excel.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sachin-kumar-gupta.github.io/portfolio/sql.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sachin-kumar-gupta.github.io/portfolio/datascience.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>
